@@ -18,6 +18,12 @@ export 'src/runtime/embedded_runtime_service.dart';
 export 'src/runtime/remote_runtime_service.dart';
 export 'src/runtime/disabled_runtime_service.dart';
 export 'src/runtime/create_runtime_service.dart';
+export 'src/runtime/api/runtime_api.dart';
+
+// Database
+export 'src/db/database_provider.dart';
+export 'src/db/flutter_database.dart';
+export 'src/db/native_database.dart';
 
 // HTTP client
 export 'src/client/runtime_client.dart';
