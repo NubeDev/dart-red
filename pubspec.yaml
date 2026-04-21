@@ -34,14 +34,9 @@ dependencies:
   # Utilities
   uuid: ^4.4.0
 
-  # BACnet protocol stack (sibling repo)
+  # BACnet protocol stack (sibling repo — switch to git ref for releases)
   bacnet_dart:
-    git:
-      url: https://github.com/NubeDev/bacnet-dart
-      ref: main
-  # During local development, comment out the git dep above and use:
-  # bacnet_dart:
-  #   path: ../bacnet-dart
+    path: ../bacnet-dart
 
   # Shared UI components (from rubixapp monorepo — update once extracted)
   rubix_ui:
