@@ -1,0 +1,53 @@
+name: dart_red
+description: Flow-based runtime engine, HTTP client, and flow editor for the Rubix platform.
+version: 0.1.0
+publish_to: none
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # HTTP / networking
+  dio: ^5.4.3+1
+  shelf: ^1.4.2
+  shelf_router: ^1.1.4
+
+  # State management
+  flutter_riverpod: ^2.5.1
+
+  # Flow editor canvas
+  fl_nodes: ^0.5.0+1
+
+  # Icons
+  lucide_icons: ^0.257.0
+
+  # Database / persistence
+  drift: ^2.22.1
+
+  # MQTT
+  mqtt5_client: ^4.5.0
+  mqtt_server: ^2.0.0
+
+  # Utilities
+  uuid: ^4.4.0
+
+  # BACnet protocol stack (sibling repo)
+  bacnet_dart:
+    git:
+      url: https://github.com/NubeDev/bacnet-dart
+      ref: main
+  # During local development, comment out the git dep above and use:
+  # bacnet_dart:
+  #   path: ../bacnet-dart
+
+  # Shared UI components (from rubixapp monorepo — update once extracted)
+  rubix_ui:
+    path: ../rubixapp/packages/rubix_ui
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
