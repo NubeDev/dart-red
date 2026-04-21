@@ -1,7 +1,6 @@
 import 'dart:async';
 
 import '../../../devices/acbm/client/client.dart';
-import '../../../devices/common/connection_state.dart';
 import '../../../devices/common/device_models.dart' as models;
 import '../../node.dart';
 import '../../port.dart';

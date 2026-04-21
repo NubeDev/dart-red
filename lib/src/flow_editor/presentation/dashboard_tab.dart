@@ -524,7 +524,7 @@ class DashboardTabState extends State<DashboardTab>
             padding: const EdgeInsets.all(12),
             itemCount: widgets.length,
             onReorder: _onReorder,
-            proxyDecorator: (child, _, _) => Material(
+            proxyDecorator: (child, _i, _) => Material(
               color: Colors.transparent,
               elevation: 4,
               child: child,

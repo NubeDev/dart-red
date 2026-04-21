@@ -187,7 +187,7 @@ class LinksPanelState extends State<LinksPanel> {
                 shrinkWrap: true,
                 padding: const EdgeInsets.fromLTRB(0, 4, 0, 8),
                 itemCount: _links.length,
-                separatorBuilder: (_, _) =>
+                separatorBuilder: (_ctx, _) =>
                     Container(height: 1, color: tokens.border.withValues(alpha: 0.4)),
                 itemBuilder: (context, index) {
                   final link = _links[index];

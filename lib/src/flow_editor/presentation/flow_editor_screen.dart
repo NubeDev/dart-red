@@ -11,7 +11,7 @@ import 'package:lucide_icons/lucide_icons.dart';
 
 import 'package:rubix_ui/rubix_ui.dart';
 import 'package:dart_red/src/client/runtime_client.dart';
-import '../../../core/runtime/runtime_providers.dart';
+import '../../runtime/runtime_providers.dart';
 import '../widgets/connection_badge.dart';
 import '../widgets/link_count_badges.dart';
 import '../widgets/links_panel.dart';

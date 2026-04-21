@@ -1,8 +1,6 @@
 import 'dart:async';
 
 import 'package:bacnet_dart/bacnet_dart.dart';
-import 'package:bacnet_dart/src/constants/property_ids.dart';
-import 'package:bacnet_dart/src/constants/error_codes.dart';
 
 import '../../node.dart';
 import '../../port.dart';

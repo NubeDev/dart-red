@@ -26,6 +26,11 @@ dependencies:
 
   # Database / persistence
   drift: ^2.22.1
+  drift_flutter: ^0.2.7
+
+  # Serial / USB (used by modbus driver and serial nodes)
+  flutter_libserialport: ^0.6.0
+  usb_serial: ^0.5.2
 
   # MQTT
   mqtt5_client: ^4.5.0
@@ -33,6 +38,11 @@ dependencies:
 
   # Utilities
   uuid: ^4.4.0
+  freezed_annotation: ^2.4.1
+  json_annotation: ^4.9.0
+  path_provider: ^2.1.5
+  shared_preferences: ^2.2.3
+  flutter_secure_storage: ^9.2.2
 
   # BACnet protocol stack (sibling repo — switch to git ref for releases)
   bacnet_dart:
@@ -46,3 +56,7 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^5.0.0
+  build_runner: ^2.4.9
+  freezed: ^2.5.2
+  json_serializable: ^6.8.0
+  drift_dev: ^2.22.1
